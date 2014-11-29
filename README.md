@@ -8,24 +8,17 @@ This repository is an attempt at identifying & describing the different parts of
 
 **PS!** There are many missing tools, libraries, descriptions and even whole parts in this document. Please help by opening issues and sending pull requests :santa: :package: :+1:
 
-## Docker Interface
+## Interfacing
 
 Communicate with the docker deamon on one of more hosts.
 
-### Single Host
+#### Single Host
 
 * [dockerode](https://github.com/apocas/dockerode) - Not just another Docker Remote API node.js module
 
-### Multi Host
+#### Multi Host
 
 * MISSING :disappointed: :panda_face:
-
-## Clustering
-
-Describe your containers and the relationships between them.
-
-TODO: What is a better word to describe this?  
-TODO: What could this look like in terms of modules?
 
 ## Building
 
@@ -33,12 +26,25 @@ Build your container images.
 
 TODO: What could this look like in terms of modules?
 
-## Image Distribution
+## Testing
+
+Test your container images.
+
+TODO: What could this look like in terms of modules?
+
+## Distributing
 
 Distribute your container images for hosts to find them.
 
 * [torrent-docker](https://github.com/mafintosh/torrent-docker) - MAD SCIENCE realtime boot of remote docker images using bittorrent
 * [docker-registry-server](https://github.com/mafintosh/docker-registry-server) - docker registry server in node.js
+
+## Clustering
+
+Describe your containers and the relationships between them.
+
+TODO: What is a better word to describe this?  
+TODO: What could this look like in terms of modules?
 
 ## Service Discovery
 
