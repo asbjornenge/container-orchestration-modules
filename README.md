@@ -39,11 +39,10 @@ Distribute your container images for hosts to find them.
 * [torrent-docker](https://github.com/mafintosh/torrent-docker) - MAD SCIENCE realtime boot of remote docker images using bittorrent
 * [docker-registry-server](https://github.com/mafintosh/docker-registry-server) - docker registry server in node.js
 
-## Clustering
+## Configuration
 
 Describe your containers and the relationships between them.
 
-TODO: What is a better word to describe this?  
 TODO: What could this look like in terms of modules?
 
 ## Service Discovery
