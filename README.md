@@ -19,7 +19,7 @@ This repository is an attempt at identifying & describing the different parts of
 ## Image Distribution
 
 * [torrent-docker](https://github.com/mafintosh/torrent-docker) - MAD SCIENCE realtime boot of remote docker images using bittorrent
-* [docker-registry-server](https://github.com/mafintosh/docker-registry-server) - https://github.com/mafintosh/docker-registry-server
+* [docker-registry-server](https://github.com/mafintosh/docker-registry-server) - docker registry server in node.js
 
 ## Service Discovery
 
