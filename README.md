@@ -1,8 +1,8 @@
-# Docker Orchestration Modules
+# Container Orchestration Modules
 
-> Applying the [UNIX philosophy](http://en.wikipedia.org/wiki/Unix_philosophy) to [docker](https://www.docker.com/) orchestration.
+> Applying the [UNIX philosophy](http://en.wikipedia.org/wiki/Unix_philosophy) to container orchestration.
 
-This repository is an attempt at identifying & describing the different parts of doing docker orchestration, and supplying information about single purpose tools, libraries and techniques to solve each part.
+This repository is an attempt at identifying & describing the different parts of doing container orchestration, and supplying information about single purpose tools, libraries and techniques to solve each part.
 
 **DISCLARIMER** You will find an abundance of [nodejs](http://nodejs.org/) related tools.  
 
@@ -53,4 +53,4 @@ WANTED: A React.js style state management tool. I have state X but now I want st
 
 ## Monitoring
 
-How container are monitored and watched.
+How containers are monitored and watched.
