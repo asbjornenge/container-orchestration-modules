@@ -12,12 +12,15 @@ This repository is an attempt at identifying & describing the different parts of
 
 Describe your containers and the relationships between them.
 
-TODO: What could this look like in terms of modules?
+* [common-container-configuration-format](https://github.com/asbjornenge/common-container-configuration-format) - Common Container Configuration Format
 
-### Missing Modules
+### Wanted Modules
 
-* Configuration parser
-* Common format?
+* Configuration X -> cccf parsers
+* Docker cccf module (adding docker specific links, volumes_from, etc.)
+* Cluster cccf module (adding scale etc.)
+* Resources cccf module (adding resource requirements etc.)
+* Host cccf module(s) (adding a container host - in a multi-host setup this would be useful)
 
 ## Distribution
 
