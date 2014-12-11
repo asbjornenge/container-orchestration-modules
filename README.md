@@ -14,14 +14,6 @@ Describe your containers and the relationships between them.
 
 * [common-container-configuration-format](https://github.com/asbjornenge/common-container-configuration-format) - Common Container Configuration Format
 
-### Wanted Modules
-
-* Configuration X -> cccf parsers
-* Docker cccf module (adding docker specific links, volumes_from, etc.)
-* Cluster cccf module (adding scale etc.)
-* Resources cccf module (adding resource requirements etc.)
-* Host cccf module(s) (adding a container host - in a multi-host setup this would be useful)
-
 ## Distribution
 
 Distribute your container images for hosts to find them.
@@ -47,10 +39,26 @@ Scheduling is a quite complex matter and can have many layers. We would be smart
 
 How containers are managed over time.
 
-### Notes
-
-WANTED: A React.js style state management tool. I have state X but now I want state Y, make me a list operations to achieve this.
-
 ## Monitoring
 
-How containers are monitored and watched.
+How containers are monitored and watched. Alerts?
+
+## Wanted Modules
+
+**cccf-docker**  
+Extend cccf with docker specific fields (links, volumes_from, etc.).
+
+**docker-cccf**    
+docker ps / inspect -> cccf-docker format
+
+**cccf-docker-instructions**  
+cccf-docker -> docker run/start/stop/rm instructions
+
+**cccf-scale**  
+add scale field and -> x \* id-scale-{i}
+
+**cccf-diff**  
+diff(stateA, stateB) -> { add : [], remove : [], keep : [] } ??
+
+**cccf-host**  
+host(new_containers, available_hosts, spread_algorithm, current_containers) add a host field to cccf. cccf-docker-instructions understands this and adds -H ??
