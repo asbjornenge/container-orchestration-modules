@@ -12,7 +12,7 @@ This repository is an attempt at identifying & describing the different parts of
 
 Describe your containers and the relationships between them.
 
-* [common-container-configuration-format](https://github.com/asbjornenge/common-container-configuration-format) - Common Container Configuration Format
+* [cccf](https://github.com/asbjornenge/cccf) - Common Container Configuration Format
 
 ## Distribution
 
