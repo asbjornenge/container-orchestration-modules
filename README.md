@@ -13,7 +13,8 @@ This repository is an attempt at identifying & describing the different parts of
 Describe your containers and the relationships between them.
 
 * [cccf](https://github.com/asbjornenge/cccf) - Common Container Configuration Format
-* [cccf-docker-instructions](https://github.com/asbjornenge/cccf-docker-instructions) - cccf -> docker cli instructions
+* [cccf-docker-instructions](https://github.com/asbjornenge/cccf-docker-instructions) - Generate docker cli instructions from a cccf config
+* [cccf-scale](https://github.com/asbjornenge/cccf-scale) - Scale up/down a cccf config
 
 ## Distribution
 
@@ -51,9 +52,6 @@ Extend cccf with docker specific fields (links, volumes_from, etc.).
 
 **docker-cccf**    
 docker ps / inspect -> cccf-docker format
-
-**cccf-scale**  
-add scale field and -> x \* id-scale-{i}
 
 **cccf-diff**  
 diff(stateA, stateB) -> { add : [], remove : [], keep : [] } ??
