@@ -41,6 +41,8 @@ Scheduling is a quite complex matter and can have many layers. We would be smart
 
 How containers are managed over time.
 
+* [cccf-diff](https://github.com/asbjornenge/cccf-diff) - Diff two cccf configs
+
 ## Monitoring
 
 How containers are monitored and watched. Alerts?
