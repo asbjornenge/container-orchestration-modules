@@ -33,9 +33,8 @@ How your containers discover each other and exchange information about themselve
 
 A process for determining what containers are run and where.
 
-### Notes
-
-Scheduling is a quite complex matter and can have many layers. We would be smart to build a composable toolchain here.
+* [cccf-host-basic](https://github.com/asbjornenge/cccf-host-basic) - Extremely basic example of spreading containers across multiple hosts. Serves mostly as a basic example of an cccf-host-x modules.
+* We need more cccf-host-x modules!
 
 ## Management
 
@@ -54,6 +53,3 @@ Extend cccf with docker specific fields (links, volumes_from, etc.).
 
 **docker-cccf**    
 docker ps / inspect -> cccf-docker format
-
-**cccf-host**  
-host(new_containers, available_hosts, spread_algorithm, current_containers) add a host field to cccf. cccf-docker-instructions understands this and adds -H ??
