@@ -55,8 +55,5 @@ Extend cccf with docker specific fields (links, volumes_from, etc.).
 **docker-cccf**    
 docker ps / inspect -> cccf-docker format
 
-**cccf-diff**  
-diff(stateA, stateB) -> { add : [], remove : [], keep : [] } ??
-
 **cccf-host**  
 host(new_containers, available_hosts, spread_algorithm, current_containers) add a host field to cccf. cccf-docker-instructions understands this and adds -H ??
