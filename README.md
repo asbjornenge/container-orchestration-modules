@@ -33,8 +33,9 @@ How your containers discover each other and exchange information about themselve
 
 A process for determining what containers are run and where.
 
-* [cccf-host-basic](https://github.com/asbjornenge/cccf-host-basic) - Extremely basic example of spreading containers across multiple hosts. Serves mostly as a basic example of an cccf-host-x modules.
-* We need more cccf-host-x modules!
+* [cccf-host-basic](https://github.com/asbjornenge/cccf-host-basic) - Extremely basic example of spreading containers across multiple hosts. Serves mostly as a basic example of an cccf-host-x module.
+
+*We need more cccf-host-x modules!*
 
 ## Management
 
